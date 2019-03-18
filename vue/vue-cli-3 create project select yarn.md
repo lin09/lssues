@@ -23,10 +23,10 @@
 
 ## yarn 代理设置
 ```
+// http://xxx 为代理服务地址（或加端口）
 yarn config set proxy http://xxx
 yarn config set https-proxy http://xxx
 ```
-* http://xxx 为代理服务地址（或加端口）
 
 ### 查看配置
 ```
