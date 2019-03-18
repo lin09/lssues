@@ -20,3 +20,14 @@
     * 淘宝 npm 源没有提供「完整性」（integrity）这一字段
   * 解决方法
     * 设置“代理 + npm源”（不可使用淘宝源）
+
+## yarn 代理设置
+```
+yarn config set proxy http://localhost:1080
+yarn config set https-proxy http://localhost:1080
+```
+### 查看配置
+```
+yarn config list
+npm config list
+```
